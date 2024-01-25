@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Hockeys Website</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+         rel="stylesheet"
+         type="text/css"
+      />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- font awesome cdn -->
+      <script
+         src="https://kit.fontawesome.com/11e41873bf.js"
+         crossorigin="anonymous"
+      ></script>
+      <style>
+         .font-manrope {
+            font-family: "Manrope", sans-serif;
+         }
+      </style>
+   </head>
+   <body class="font-manrope container mx-auto">
+      <!--nav section-->
+      <div class="navbar bg-base-100">
+         <div class="navbar-start">
+            <div class="dropdown">
+               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="h-5 w-5"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke="currentColor"
+                  >
+                     <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16"
+                     />
+                  </svg>
+               </div>
+               <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+               >
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+               </ul>
+            </div>
+            <a class="font-bold text-3xl"
+               >Hockey<span class="text-[#FF4240]">’</span>s</a
+            >
+         </div>
+         <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+               <li><a>Home</a></li>
+               <li><a>About</a></li>
+               <li><a>Pages</a></li>
+               <li><a>Blog</a></li>
+               <li><a>Contact</a></li>
+            </ul>
+         </div>
+         <div class="navbar-end">
+            <button class="btn btn-error font-semibold text-white">
+               Get Ticket
+            </button>
+         </div>
+      </div>
+      <!--banner section-->
+      <div class="carousel w-full relative">
+         <div id="slide1" class="carousel-item relative w-full">
+            <img src="./Images/1.png" class="w-full" />
+            <div
+               class="absolute flex transform -translate-y-1/2 left-5 right-5 bottom-10"
+            >
+               <a href="#slide4" class="btn btn-circle bg-black text-white mr-2"
+                  >❮</a
+               >
+               <a href="#slide2" class="btn btn-circle bg-black text-white mr-2"
+                  >❯</a
+               >
+            </div>
+         </div>
+         <div id="slide2" class="carousel-item relative w-full">
+            <img
+               src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+               class="w-full"
+            />
+            <div
+               class="absolute flex transform -translate-y-1/2 left-5 right-5 bottom-10"
+            >
+               <a href="#slide1" class="btn btn-circle bg-black text-white mr-2"
+                  >❮</a
+               >
+               <a href="#slide3" class="btn btn-circle bg-black text-white mr-2"
+                  >❯</a
+               >
+            </div>
+         </div>
+         <div id="slide3" class="carousel-item relative w-full">
+            <img
+               src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+               class="w-full"
+            />
+            <div
+               class="absolute flex transform -translate-y-1/2 left-5 right-5 bottom-10"
+            >
+               <a href="#slide2" class="btn btn-circle bg-black text-white mr-2"
+                  >❮</a
+               >
+               <a href="#slide4" class="btn btn-circle bg-black text-white mr-2"
+                  >❯</a
+               >
+            </div>
+         </div>
+         <div id="slide4" class="carousel-item relative w-full">
+            <img
+               src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+               class="w-full"
+            />
+            <div
+               class="absolute flex transform -translate-y-1/2 left-5 right-5 bottom-10"
+            >
+               <a href="#slide3" class="btn btn-circle bg-black text-white mr-2"
+                  >❮</a
+               >
+               <a href="#slide1" class="btn btn-circle bg-black text-white mr-2"
+                  >❯</a
+               >
+            </div>
+         </div>
+      </div>
+      <div
+         class="bg-black p-8 rounded-lg lg:w-[550px] lg:absolute lg:right-60 lg:bottom-20 "
+      >
+         <h4 class="font-extrabold text-2xl my-5 text-white">
+            Meet all the heroes from the field
+         </h4>
+         <p class="font-medium text-xs my-2 text-white">
+            Join our vibrant community of hockey enthusiasts, <br> where the puck never stops moving,
+         </p>
+      </div>
+      <!--Hockeys Club Section-->
+      <div
+         class="sm:my-32 lg:my-32 py-10 text-center border-y-[1px] border-dashed border-zinc-400"
+      >
+         <h1 class="font-bold text-4xl">Professional Hockeys Club</h1>
+         <p class="font-medium text-xs my-5">
+            
+Elevate your hockey experience with our Professional Hockey Club – a premier destination for fans,<br> players, and enthusiasts alike. Join us!.
+         </p>
+         <div class="my-12 grid grid-cols-1 gap-10 lg:grid-cols-4">
+            <div>
+               <div
+                  class="radial-progress text-[#FF4240]"
+                  style="--value: 87"
+                  role="progressbar"
+               >
+                  87%
+               </div>
+               <h3 class="font-semibold text-xl my-2">Prayer Facility</h3>
+               <p class="font-normal text-base">
+                  Discover serenity in our prayer facility. A peaceful sanctuary for reflection, bringing solace and connection to the heart of your spirituality.
+
+
+               </p>
+            </div>
+            <div>
+               <div
+                  class="radial-progress text-[#49D293]"
+                  style="--value: 95"
+                  role="progressbar"
+               >
+                  95%
+               </div>
+               <h3 class="font-semibold text-xl my-2">Experienced Coach</h3>
+               <p class="font-normal text-base">
+                  Empower your journey with our experienced coach. Expert guidance to enhance skills, strategize, and achieve peak performance in your field.
+               </p>
+            </div>
+
+            <div>
+               <div
+                  class="radial-progress text-[#FFB546]"
+                  style="--value: 90"
+                  role="progressbar"
+               >
+                  90%
+               </div>
+               <h3 class="font-semibold text-xl my-2">Senior Player</h3>
+               <p class="font-normal text-base">
+                  Seasoned excellence personified. Our senior player brings skill, wisdom, and leadership, enriching the game with unmatched experience and resilience.
+               </p>
+            </div>
+            <div>
+               <div
+                  class="radial-progress text-[#4C8DF1]"
+                  style="--value: 80"
+                  role="progressbar"
+               >
+                  80%
+               </div>
+               <h3 class="font-semibold text-xl my-2">Training Ground</h3>
+               <p class="font-normal text-base">
+                  Unleash potential on our state-of-the-art training ground. A dynamic space fostering skill development, teamwork, and athletic excellence for triumph.
+               </p>
+            </div>
+         </div>
+      </div>
+      <!--Program Sections-->
+      <div>
+         <div
+            class="my-20 py-10 text-center border-y-[1px] border-dashed border-zinc-400"
+         >
+            <h1 class="font-bold text-4xl mt-5">Program Sections</h1>
+            <p class="font-medium text-xs">
+               Program Sections
+               Explore diverse program sections catering to your interests. From skill-building to <br>community engagement, discover tailored experiences for every participant's growth.
+            </p>
+         </div>
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <div
+               class="hero rounded-lg my-5 bg-cover sm:w-[335px] lg:w-[570px] h-[335px]"
+               style="background-image: url('./Images/2.png')"
+            >
+               <div class="hero-overlay bg-opacity-60"></div>
+               <div class="text-neutral-content">
+                  <div class="pt-10 pl-7">
+                     <h1 class="mb-5 text-2xl font-bold">Junior Program</h1>
+                     <p class="mb-5">
+                        Ignite passion and skills in our Junior Program. Tailored for young talents,<br> fostering growth, teamwork, and a lifelong love for the sport
+                     </p>
+                     <button class="btn btn-error">Register Now</button>
+                  </div>
+               </div>
+            </div>
+            <div
+               class="hero rounded-lg my-5 bg-cover sm:w-[335px] lg:w-[570px] h-[335px]"
+               style="background-image: url('./Images/3.png')"
+            >
+               <div class="hero-overlay bg-opacity-60"></div>
+               <div class="text-neutral-content">
+                  <div class="pt-10 pl-7">
+                     <h1 class="mb-5 text-2xl font-bold">Teenager Program</h1>
+                     <p class="mb-5">
+                        Empower teens in our dynamic program. Nurturing talents, instilling teamwork, and building character for success both on and off the field.
+                     </p>
+                     <button class="btn btn-error">Register Now</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div
+            class="hero rounded-xl my-5 sm:w-[335px] lg:w-full h-[450px]"
+            style="background-image: url('./Images/4.png')"
+         >
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="text-neutral-content">
+               <div class="pt-10">
+                  <h1 class="mb-5 text-2xl font-bold">Professional Program</h1>
+                  <p class="mb-5">
+                     Elevate your game with our Professional Program. Specialized training, strategic insights, and a path to excellence for aspiring professionals.
+
+                  </p>
+                  <button class="btn btn-error">Register Now</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Our New Products Section-->
+      <div
+         class="my-20 py-10 text-center border-y-[1px] border-dashed border-zinc-400"
+      >
+         <h1 class="font-bold text-4xl mt-5">Our New Products</h1>
+         <p class="font-medium text-xs">
+            Introducing our latest products—innovative, stylish, and designed for peak performance. <br> Elevate your experience with cutting-edge technology and exceptional quality.
+         </p>
+      </div>   
+   </body>
+</html>
